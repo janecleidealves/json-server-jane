@@ -1,9 +1,42 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "user":[
+    {
+      "id": "1",
+      "email": "teste@teste.com",
+      "password": "123456"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "informacoes": [
+    {
+      "id": "1",
+      "foto": "https://github.com/janecleidealves.png",
+      "nome": "Janecleide Alves",
+      "cargo": "Desenvolvedora Web",
+      "resumo": "Resumo de teste"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "experiencia": [
+    {
+      "id": "1",
+      "titulo": "Vendedora",
+      "destricao": "",
+      "tipo": "Proficional",
+      "anoInicio": "1998",
+      "anoFim": "2006"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "link": "https://github.com/janecleidealves",
+      "image": "https://github.com/janecleidealves.png",
+      "title": "Portfolio 1"
+    },
+    {
+      "id": "2",
+      "link": "https://github.com/janecleidealves",
+      "image": "https://github.com/janecleidealves.png",
+      "title": "Portfolio 2"
+    }
+  ]
 }
